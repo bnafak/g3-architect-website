@@ -4,9 +4,20 @@
 </style>
 
 *{
+    font-family: 'tab', sans-serif;
+    font-family: 'open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    
 }
-h1{
-    color:red;
+header{
+  background: rgba(255, 144, 14, 0.10);
+  padding: 50px 240px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
 }
