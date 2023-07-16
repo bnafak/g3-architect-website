@@ -54,33 +54,42 @@ font-weight: 700px;
   font-weight: 400;
   line-height: 26px;
 }
+
 .btn{
   border-radius: 8px;
   background-color: chocolate;
   padding: 20px 25px;
   color: white;
-  font-size: .25 rem;
+  font-size: 1.25 rem;
+  font-weight: 600;
   cursor:pointer
   border:0;
 }
 
+  .banner-pic-container{
+    width: 100%;
+   background-color:#FF900E;
+  }
+ 
+.baner-pic{
+  width: 700px;
+  height: 500px;
+}
 .team-img-container{
-  width: 100%;
+
   display: flex;
   align-items: center;
-  height: 100vh;
-  justify-content: space-evenly;
+  justify-content:space-around;
 }
+
 .team-content{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap:24px;
+  gap: 50px;
 }
 
-
-
 .span1{
-  color: var(--dark-03, #727272);
+  color:#727272);
 font-family: Work Sans;
 font-size: 45px;
 font-style: normal;
@@ -88,7 +97,7 @@ font-weight: 500;
 line-height: normal;
 }
 .span2{
-  color: var(--dark-01, #131313);
+  color:#131313);
 font-family: Work Sans;
 font-size: 45px;
 font-style: normal;
@@ -111,7 +120,39 @@ line-height: normal;
   display: flex;
   justify-content: space-around;
 }
+.Feature-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+ 
+.Feature-right{
+  width: 708px;
+height: 982px;
+}
+.box{
+  justify-content: space-around;
+  border: 1px solid rgb(84, 76, 76);
+  gap:20px;
+  padding:20px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+.achitect{
+  width: 550px;
+  height: auto;
+}
+
+.icon{
+  border: 1px solid rgb(17, 3, 3);
+  gap:20px;
+  padding:20px;
+  margin-bottom: 20px; 
+  text-align: center;
+}
 .sponsor-container{
   display: flex;
   justify-content: space-around;
+  margin: 50px;
 }
